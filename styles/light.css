@@ -5,8 +5,35 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --background-image: url(../images/cover-image-light.png);
+  /* цвета темы */
+  --background-color: #fff1f7;
+  --accent-color: #ff0070; /* для тени */ 
+  --main-title-color: #ffc2e6; /* no focus */
+  --title-color: #353430; /* цвет заголовка */
+  --subtitle-color: #353430; /* цвет подзаголовка */
+  --subtitle-background-color: #ff8dcb; /* цвет фона подзаголовка */
+  --link-shadow-color: #ff8dcb;
+  --text-color: #353430; /* цвет основного текста */
+  --button-border-color: #353430;
+  --hover-button-border-color: rgba(50, 49, 45, 0.40); /* цвет границы кнопки в hover */
+  --rec-icon-visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image: url(../images/cover-image-light.png);
+    /* цвета темы */
+    --background-color: #fff1f7;
+    --accent-color: #ff0070; /* для тени */ 
+    --main-title-color: #ffc2e6; /* no focus */
+    --title-color: #353430; /* цвет заголовка */
+    --subtitle-color: #353430; /* цвет подзаголовка */
+    --subtitle-background-color: #ff8dcb; /* цвет фона подзаголовка */
+    --link-shadow-color: #ff8dcb;
+    --text-color: #353430; /* цвет основного текста */
+    --button-border-color: #353430;
+    --hover-button-border-color: rgba(50, 49, 45, 0.40); /* цвет границы кнопки в hover */
+    --rec-icon-visibility: hidden;
+  }
 }
