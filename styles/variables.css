@@ -9,7 +9,7 @@
   --background-image: url(../images/cover-image-dark.png);
   /* цвета темы */
   --background-color: #000028;
-  --accent-color: #ff0070; /* для текста навигации, уголков, тени, пр. */ 
+  --accent-color: #ff0070; /* для текста навигации, уголков, тени, пр. */
   --main-title-color: #db00ff; /* no focus */
   --title-color: #ff0070; /* цвет заголовка */
   --subtitle-color: #000028; /* цвет подзаголовка */
@@ -17,7 +17,12 @@
   --link-shadow-color: #ff0070;
   --text-color: #f1b2ce; /* цвет основного текста */
   --button-border-color: #ff0070;
-  --hover-button-border-color: rgba(255, 0, 112, 0.40); /* цвет границы кнопки в hover */
+  --hover-button-border-color: rgba(
+    255,
+    0,
+    112,
+    0.4
+  ); /* цвет границы кнопки в hover */
 
   /* шрифт и размеры текста */
   --font-family: "IBM Plex Mono";
@@ -29,6 +34,6 @@
   /* отсутпы */
   --min-gap: 10px;
   --max-gap: 20px;
-  
+
   --rec-icon-visibility: visible;
-} 
+}
