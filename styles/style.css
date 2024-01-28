@@ -196,11 +196,7 @@
 @media (min-width: 768px) {
   .header__description {
     justify-self: end;
-    inline-size: clamp(
-      364px,
-      calc(50% - 10px),
-      491px
-    ); /* возьмём из figma размеры блоков */
+    width: 50%;
   }
 }
 
